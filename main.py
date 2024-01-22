@@ -336,7 +336,7 @@ def gamedone():
     while kesc:
         for eventex in pygame.event.get():
             if eventex.type == pygame.KEYDOWN:
-                if eventex.key == pygame.K_ESCAPE:  # выход при нажатии ESC (потом сделать финальное окно)
+                if eventex.key == pygame.K_ESCAPE:  # выход при нажатии ESC 
                     pygame.quit()
                     exit()
                 elif eventex.key == pygame.K_RETURN:
